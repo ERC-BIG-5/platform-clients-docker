@@ -1,0 +1,1 @@
+docker run -it big5 sh
