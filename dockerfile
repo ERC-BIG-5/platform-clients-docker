@@ -44,7 +44,7 @@ COPY docker-entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 # Set volume at the parent level
-VOLUME ["/platform-clients"]
+#VOLUME ["/platform-clients"]
 
-ENTRYPOINT ["/entrypoint.sh"]
+#ENTRYPOINT ["/entrypoint.sh"]
 CMD ["bash"]

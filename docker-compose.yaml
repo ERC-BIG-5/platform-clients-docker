@@ -1,0 +1,11 @@
+services:
+  platform-clients:
+    build: .
+    container_name: platform-clients
+    volumes:
+      - ./app-data:/app/platform-clients/data
+      #- ./.env:/app/platform-clients/.env
+
+volumes:
+  app-data:
+  #env:
